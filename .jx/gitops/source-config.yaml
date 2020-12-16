@@ -8,5 +8,6 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: node-t1
     - name: t
     scheduler: in-repo
