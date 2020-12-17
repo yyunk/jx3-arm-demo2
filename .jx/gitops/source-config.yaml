@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: t
+    - name: t1217
     scheduler: in-repo
