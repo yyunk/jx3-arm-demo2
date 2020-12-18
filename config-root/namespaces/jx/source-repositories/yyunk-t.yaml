@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: yyunk
+    provider: github
+    repository: t
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: yyunk-t
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/yyunk/t.git
+  org: yyunk
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: t
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/yyunk/t

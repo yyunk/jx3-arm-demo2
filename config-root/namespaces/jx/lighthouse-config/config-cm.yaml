@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         yyunk/jx3-arm-demo2: true
+        yyunk/t: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,6 +21,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         yyunk/jx3-arm-demo2: merge
+        yyunk/t: merge
       queries:
       - labels:
         - approved
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - yyunk/jx3-arm-demo2
+        - yyunk/t
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - yyunk/jx3-arm-demo2
+        - yyunk/t
       target_url: http://dashboard-jx.jxdemo.jenkins-x.arm64.linaro.org
 kind: ConfigMap
 metadata:
