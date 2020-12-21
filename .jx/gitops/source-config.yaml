@@ -8,5 +8,6 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: jx3-demo-1221
     - name: t
     scheduler: in-repo
