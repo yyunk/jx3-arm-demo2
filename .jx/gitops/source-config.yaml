@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: t
+    - name: test0107
     scheduler: in-repo
